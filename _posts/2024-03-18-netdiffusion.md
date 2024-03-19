@@ -4,6 +4,7 @@ title: "Introducing NetDiffusion: A New Direction in Network Data Augmentation"
 date: 2024-03-18
 categories: research
 tags: machine-learning network-data synthetic-data
+author: "Xi (Chase) Jiang"
 ---
 
 # Introducing NetDiffusion: A New Direction in Network Data Augmentation
