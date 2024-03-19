@@ -1,11 +1,17 @@
 # Introducing NetDiffusion: A New Direction in Network Data Augmentation
 
 In the world of machine learning (ML) for network management and security, the scarcity of high-quality,
-labeled network datasets has always been a major bottleneck. Traditional methods for generating synthetic network data,
+labeled network datasets has always been a major bottleneck.
+Traditional methods for generating synthetic network data,
 while useful, have struggled to produce the level of detail and realism required for effective ML model training. This is
 where our latest research comes into play. Our paper, "NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation,"
 presents a groundbreaking tool designed to bridge this gap by using diffusion models to generate synthetic network traffic that
 is not only high in fidelity but also adheres to protocol specifications.
+<figure align="center">
+  <figcaption>NetDiffusion Pipeline:</figcaption>
+  <img src="https://github.com/noise-lab/NetDiffusion_Generator/assets/47127634/804756f9-156e-4796-bea6-00d5d7bb1706" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="1241">
+</figure>
+
 
 ## Why NetDiffusion?
 
@@ -21,12 +27,22 @@ NetDiffusion operates in three key stages:
 
 1. **Network Traffic to Image Conversion**: We convert raw network traffic into image-based representations.
 This innovative approach allows us to leverage the advanced capabilities of diffusion models, which excel in generating high-quality images from textual descriptions.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/f6103b57-5c93-4847-8c72-9c9a41b58b70" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="600">
+</div>
 
 2. **Fine-Tuning Diffusion Model for Network Traffic Generation**: By fine-tuning a diffusion model on network traffic images,
 NetDiffusion can generate synthetic data that preserves the intricate patterns found in real network traffic.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/90af5e42-e229-4ffb-a013-2800264fa8e2" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="800">
+</div>
 
 3. **Ensuring Protocol Compliance**: A significant contribution of NetDiffusion is its ability to generate synthetic
-data that adheres to network protocol rules, ensuring that the generated traffic can be readily used for a wide range of network analysis and testing tasks beyond ML applications.
+data that adheres to inter and intra-packet network protocol rules through post-generation heuristic.
+This ensures that the generated traffic can be readily used for a wide range of network analysis and testing tasks beyond ML applications.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/438e4c0f-1b89-4d36-a775-9611fbb41781" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="700">
+</div>
 
 ## Evaluation and Impact
 
@@ -34,6 +50,7 @@ Our evaluation demonstrates that NetDiffusion-generated data achieves higher sta
 real data and improved ML model performance compared to existing state-of-the-art methods. Furthermore, the generated
 synthetic network traffic supports traditional network analysis and testing tasks, showcasing NetDiffusion's versatility
 and potential to serve a broad spectrum of network research and development needs.
+<img width="628" alt="Screenshot 2024-03-18 at 7 03 58 PM" src="https://github.com/net-ml/net-ml.github.io/assets/47127634/031c4005-4a86-4f0b-8685-222948c71d86">
 
 ## Open Source and Future Directions
 
