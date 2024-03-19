@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Welcome to My Blog
+# Welcome to the NetML Blog
 
-Here are my posts:
+Recent posts:
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
