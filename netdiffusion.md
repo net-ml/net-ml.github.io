@@ -6,7 +6,7 @@ Traditional methods for generating synthetic network data,
 while useful, have struggled to produce the level of detail and realism required for effective ML model training. This is
 where our latest research comes into play. Our paper, "NetDiffusion: Network Data Augmentation Through Protocol-Constrained Traffic Generation,"
 presents a groundbreaking tool designed to bridge this gap by using diffusion models to generate synthetic network traffic that
-is not only high in fidelity but also adheres to protocol specifications.
+is not only high in fidelity but also adheres to protocol specifications. For more details regarding the tool, please refer to our full paper (https://dl.acm.org/doi/pdf/10.1145/3639037).
 <figure align="center">
   <figcaption>NetDiffusion Pipeline:</figcaption>
   <img src="https://github.com/noise-lab/NetDiffusion_Generator/assets/47127634/804756f9-156e-4796-bea6-00d5d7bb1706" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="1241">
@@ -45,16 +45,36 @@ This ensures that the generated traffic can be readily used for a wide range of 
 </div>
 
 ## Evaluation and Impact
-
+We evaluate the quality of NetDiffusion-synthetic traces by using it to generate network flows for ten different applications and services.
 Our evaluation demonstrates that NetDiffusion-generated data achieves higher statistical similarity to
-real data and improved ML model performance compared to existing state-of-the-art methods. Furthermore, the generated
+real data compared to existing state-of-the-art methods.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/6999e559-bec7-4e82-b593-fa4806864eb9" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="500">
+</div>
+
+
+We also look at the scenarios where the training of ML models is done using a mixture of both real and synthetic data,
+and across all scenarios, ML models that use our synthetic data is able to outperform those that use other synthetic data.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/cc610302-af90-40ee-8ee0-6c4d87a89922" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="800">
+</div>
+
+Lastly, we try to use synthetic data to solve the problem of class imbalance where we populate underrepresented classes using the synthetic data points.
+we observe notable ML accuracy improvement when we carry out class balancing using NetDiffusion data, particularly for classes that are underrepresented such as Facebook, Meet, and Zoom in this case.
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/2afd2e9e-878e-48fd-a7e4-fee725dbf28d" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="500">
+</div>
+
+Furthermore, the generated
 synthetic network traffic supports traditional network analysis and testing tasks, showcasing NetDiffusion's versatility
 and potential to serve a broad spectrum of network research and development needs.
-<img width="628" alt="Screenshot 2024-03-18 at 7 03 58 PM" src="https://github.com/net-ml/net-ml.github.io/assets/47127634/031c4005-4a86-4f0b-8685-222948c71d86">
+<div align="center">
+  <img src="https://github.com/net-ml/net-ml.github.io/assets/47127634/f76240c2-a54f-421f-b057-c15f3e87dea3" alt="Screenshot 2024-02-29 at 3 41 29 PM" width="500">
+</div>
 
 ## Open Source and Future Directions
 
-We are committed to contributing to the research community and have made our datasets, pipeline, and results available on GitHub.
+We are committed to contributing to the research community and have made our datasets, pipeline, and results available on GitHub (https://github.com/noise-lab/NetDiffusion_Generator/tree/main).
 Looking ahead, we see numerous opportunities to enhance NetDiffusion, including exploring more sophisticated conditioning techniques
 for diffusion models and extending its applicability to even more diverse network scenarios.
 
