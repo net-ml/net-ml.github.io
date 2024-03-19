@@ -4,8 +4,13 @@ layout: default
 
 # Welcome to the NetML Blog
 
-Recent posts:
+## Recent Posts
 
+<ul class="post-list">
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}
+  <li>
+    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+    <div class="post-meta">Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</div>
+  </li>
 {% endfor %}
+</ul>
