@@ -6,6 +6,7 @@ categories: research
 tags: machine-learning network-data synthetic-data
 author: "Xi (Chase) Jiang"
 ---
+See our open-sourced repo for implementation details: https://github.com/noise-lab/NetDiffusion_Generator
 
 In the world of machine learning (ML) for network management and security, the scarcity of high-quality,
 labeled network datasets has always been a major bottleneck.
@@ -81,7 +82,7 @@ and potential to serve a broad spectrum of network research and development need
 
 # Open Source and Future Directions
 
-We are committed to contributing to the research community and have made our datasets, pipeline, and results available on GitHub (https://github.com/noise-lab/NetDiffusion_Generator/tree/main).
+We are committed to contributing to the research community and have made our pipeline available on GitHub (https://github.com/noise-lab/NetDiffusion_Generator/tree/main).
 Looking ahead, we see numerous opportunities to enhance NetDiffusion, including exploring more sophisticated conditioning techniques
 for diffusion models and extending its applicability to even more diverse network scenarios.
 
