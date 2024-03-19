@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Introducing NetDiffusion: A New Direction in Network Data Augmentation"
+date: 2024-03-18
+categories: research
+tags: machine-learning network-data synthetic-data
+---
+
 # Introducing NetDiffusion: A New Direction in Network Data Augmentation
 
 In the world of machine learning (ML) for network management and security, the scarcity of high-quality,
