@@ -6,7 +6,7 @@ title: NetML # the website title (if blank, full name will be used instead)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A place where to collect all our ideas about the world of Machine Learning and Networking.
 footer_text: 
-keywords: Networks, Systems, Machine Learning
+keywords: Networks, Systems, Machine Learning, Data
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
