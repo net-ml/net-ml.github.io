@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://netml.io/sitemap.xml
+Sitemap: https://fbronzino.com/netml-testnetml-test//sitemap.xml
