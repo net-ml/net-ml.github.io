@@ -7,10 +7,16 @@ layout: default
 ## Recent Posts
 
 <ul class="post-list">
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
-    <div class="post-meta">Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</div>
-  </li>
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}" class="post-link">{{ post.title }}</a>
+      <div class="post-meta">Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</div>
+    </li>
+  {% endfor %}
+  {% for talk in site.talks %}
+    <li>
+      <a href="{{ talk.url }}" class="post-link">{{ talk.title }}</a>
+      <div class="post-meta">Presented on {{ talk.date | date: "%B %d, %Y" }} by {{ talk.author }}</div>
+    </li>
+  {% endfor %}
 </ul>
