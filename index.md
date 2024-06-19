@@ -13,10 +13,17 @@ layout: default
       <div class="post-meta">Posted on {{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</div>
     </li>
   {% endfor %}
-  {% for talk in site.talks %}
-    <li>
-      <a href="{{ talk.url }}" class="post-link">{{ talk.title }}</a>
-      <div class="post-meta">Presented on {{ talk.date | date: "%B %d, %Y" }} by {{ talk.author }}</div>
-    </li>
+</ul>
+
+## Recent Talks
+
+<ul class="talk-list">
+  {% for file in site.static_files %}
+    {% if file.path contains '_talks' %}
+      <li>
+        <a href="{{ file.path }}" download="{{ file.path }}" class="talk-link">{{ file.path | split: '/' | last }}</a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
+
