@@ -18,12 +18,10 @@ layout: default
 ## Recent Talks
 
 <ul class="talk-list">
-  {% for file in site.static_files %}
-    {% if file.path contains '_talks' %}
-      <li>
-        <a href="{{ file.path }}" download="{{ file.path }}" class="talk-link">{{ file.path | split: '/' | last }}</a>
-      </li>
-    {% endif %}
+  {% assign talks = site.static_files | where: 'path', '_talks' %}
+  {% for talk in talks %}
+    <li>
+      <a href="{{ talk.path }}" download="{{ talk.path }}" class="talk-link">{{ talk.path | split: '/' | last }}</a>
+    </li>
   {% endfor %}
 </ul>
-
