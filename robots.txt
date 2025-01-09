@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://fbronzino.com/netml-testnetml-test//sitemap.xml
+User-agent: * Disallow: Sitemap: https://netml.io/sitemap.xml
