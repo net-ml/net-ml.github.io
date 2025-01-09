@@ -3,7 +3,7 @@ layout: post
 title: "Introducing NetDiffusion: A New Direction in Network Data Augmentation"
 date: 2024-03-18
 categories: research
-tags: machine-learning network-data synthetic-data
+tags: generative, dataset, code
 author: "Xi (Chase) Jiang"
 ---
 See our open-sourced repo for implementation details: https://github.com/noise-lab/NetDiffusion_Generator

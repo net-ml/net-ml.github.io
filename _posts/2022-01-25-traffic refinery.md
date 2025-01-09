@@ -3,7 +3,7 @@ layout: post
 title:  Traffic Refinery will appear at ACM SIGMETRICS 2022
 date:   2022-01-24 13:00:00
 description: A cost-aware data representation analysis system for machine learning on network traffic 
-tags: publication, software-release
+tags: traffic-analysis, code
 categories: 
 ---
 
