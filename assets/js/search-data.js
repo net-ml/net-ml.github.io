@@ -41,9 +41,9 @@ ninja.data = [{
           window.location.href = "/blog/2024/netdiffusion/";
         
       },
-    },{id: "post-leaf-will-appear-at-acm-conext-2023",
+    },{id: "post-dealing-with-model-concept-drift-in-networks-with-leaf",
       
-        title: "LEAF will appear at ACM CoNEXT 2023",
+        title: "Dealing with Model Concept Drift in Networks with LEAF",
       
       description: "LEAF: Navigating Concept Drift in Cellular Networks",
       section: "Posts",
