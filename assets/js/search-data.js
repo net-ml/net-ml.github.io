@@ -52,20 +52,20 @@ ninja.data = [{
           window.location.href = "/blog/2023/leaf/";
         
       },
-    },{id: "post-amir-will-appear-at-acm-ubicomp-2023",
+    },{id: "post-multimodal-activity-recognition-with-amir",
       
-        title: "AMIR will appear at ACM Ubicomp 2023",
+        title: 'Multimodal Activity Recognition with AMIR <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "AMIR: Active Multimodal Interaction Recognition from Video and Network Traffic in Connected Environments",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2023/amir/";
+          window.open("https://medium.com/ubicomp-iswc-2023/marrying-video-and-network-traffic-for-activity-recognition-and-beyond-3e0bef89a27b", "_blank");
         
       },
-    },{id: "post-traffic-refinery-will-appear-at-acm-sigmetrics-2022",
+    },{id: "post-understanding-the-cost-of-machine-learning-on-network-traffic-with-traffic-refinery",
       
-        title: "Traffic Refinery will appear at ACM SIGMETRICS 2022",
+        title: "Understanding the Cost of Machine Learning on Network Traffic with Traffic Refinery",
       
       description: "A cost-aware data representation analysis system for machine learning on network traffic",
       section: "Posts",
