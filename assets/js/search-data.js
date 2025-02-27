@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "post-introducing-netdiffusion-a-new-direction-in-network-data-augmentation",
+        },{id: "post-optimizing-ml-based-traffic-analysis-with-cato",
+      
+        title: "Optimizing ML-Based Traffic Analysis with CATO",
+      
+      description: "CATO: End-to-End Optimization of ML-Based Traffic Analysis Pipelines",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/cato/";
+        
+      },
+    },{id: "post-introducing-netdiffusion-a-new-direction-in-network-data-augmentation",
       
         title: "Introducing NetDiffusion: A New Direction in Network Data Augmentation",
       
