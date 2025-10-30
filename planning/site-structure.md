@@ -44,6 +44,7 @@ Showcase of research projects and tools developed by the group.
     - ServeFlow
     - Cruise Control
     - LoFi
+- Network Inference
 - Privacy (Future)
 
 **For Each Project:**
