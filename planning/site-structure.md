@@ -9,15 +9,15 @@ Content area for articles, updates, and announcements related to network machine
 **Key Features:**
 - Individual blog post pages
 - Archive/listing page
-- RSS feed support
-- Tags/categories for organization
-- Date-based organization
+- Tags/categories for organization (optional)
+- Date-based organization 
 
 **Content Types:**
 - Research updates
 - Project announcements
 - Tutorial articles
 - Conference/publication highlights
+- Commentary on other research, current events, etc.
 
 ---
 
@@ -26,17 +26,33 @@ Content area for articles, updates, and announcements related to network machine
 Showcase of research projects and tools developed by the group.
 
 **Featured Projects:**
-- NetML
-- nprint
-- Additional research projects
+- Data Representation
+  - NetML
+  - nprint
+- Generative AI
+  - NetDiffusion
+  - NetSSM
+  - CAIP
+- MLOps
+  - Model Maintenance / Training
+    - LEAF
+  - Optimizing Model Serving
+    - CATO
+    - Traffic Refinery
+  - Dynamic Model Execution
+    - JITI
+    - ServeFlow
+    - Cruise Control
+    - LoFi
+- Privacy (Future)
 
 **For Each Project:**
-- Project description and overview
+- Project description / overview
+  - Use cases and examples
 - GitHub repository link
 - Documentation links
+  - Installation/getting started guides
 - Key publications
-- Use cases and examples
-- Installation/getting started guides
 
 ---
 
@@ -45,7 +61,7 @@ Showcase of research projects and tools developed by the group.
 Team members and collaborators involved in the research.
 
 **Categories:**
-- Principal Investigators
+- Project Leaders
 - Postdocs
 - PhD Students
 - Master's Students
@@ -58,13 +74,12 @@ Team members and collaborators involved in the research.
 - Role/position
 - Research interests
 - Personal website/social links
-- Publications
 
 ---
 
 ## 4. Datasets and Code
 
-Repository of research datasets and code releases.
+Pointers to repositories of research datasets and code releases.
 
 **Datasets:**
 - Dataset descriptions
@@ -74,26 +89,26 @@ Repository of research datasets and code releases.
 - License information
 
 **Code:**
-- Research implementations
-- Tools and utilities
-- GitHub repositories
+- Research implementations (Github Repositories)
 - Documentation and tutorials
+  - With full instructions on how to run the implementations
 
 ---
 
-## 5. Course Materials
+## 5. Resources
 
-Educational resources for teaching and learning network machine learning.
+Resources for teaching and learning. Course materials, etc.
 
 **Components:**
 
-### Assignments
+### Assignments (Pointers)
 - Problem sets
+- In-class hands-on activities
 - Programming assignments
-- Projects
+- Project ideas / Pointers
 
-### Books
-- Recommended reading
+### Reading
+- Recommended background reading (pointers to background material, including our own)
 - Textbooks
 - Research papers
 
@@ -105,15 +120,17 @@ Educational resources for teaching and learning network machine learning.
 
 **Organization:**
 - By course/topic
-- By difficulty level
-- With supplementary materials (slides, code, etc.)
+- Pointers to any supplementary materials (slides, code, etc.)
 
 ---
 
 ## Implementation Notes
 
-- Ensure responsive design for all sections
-- Implement search functionality across content
-- Consider static site generator (Jekyll, Hugo, Next.js, etc.)
+We believe that the current template should support all of the functionality below. Please indicate if it doesn't.
+
+- Ensure responsive design for all sections (obviously)
+- Implement search functionality across content (depending on template; if too complicated, eliminate this)
+- More important than search functionality is isolation of content (publications, blog, etc.) by tags
+- Consider static site generator (Jekyll, Hugo, Next.js, etc.). We want to write everything in markdown.
 - Plan for easy content updates
-- Include analytics for tracking usage
+- Include analytics for tracking usage (probably just Google Analytics, though really we don't care)
