@@ -12,16 +12,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-{% assign blog_name_size = site.blog_name | size %}
-{% assign blog_description_size = site.blog_description | size %}
-
-{% if blog_name_size > 0 or blog_description_size > 0 %}
-
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>Welcome to the NetML website!</h2>
-  </div>
-  {% endif %}
 
 The NetML project is dedicated to advancing research and innovation at the intersection of machine learning (ML) and networking. Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
 
@@ -37,7 +27,7 @@ We focus on several key areas:
 
 ## Featured Projects
 
-Explore our research through projects like [nPrint](/projects/nprint/), [LEAF](/projects/leaf/), [NetDiffusion](/projects/netdiffusion/), [CATO](/projects/cato/), [Traffic Refinery](/projects/traffic-refinery/), and [AMIR](/projects/amir/).
+Explore our research through projects like [nPrint](/projects/), [LEAF](/projects/), [NetDiffusion](/projects/), [CATO](/projects/), [Traffic Refinery](/projects/), and [AMIR](/projects/).
 
 ## Open Science
 
