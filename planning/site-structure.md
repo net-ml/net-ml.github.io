@@ -9,15 +9,15 @@ Content area for articles, updates, and announcements related to network machine
 **Key Features:**
 - Individual blog post pages
 - Archive/listing page
-- RSS feed support
-- Tags/categories for organization
-- Date-based organization
+- Tags/categories for organization (optional)
+- Date-based organization 
 
 **Content Types:**
 - Research updates
 - Project announcements
 - Tutorial articles
 - Conference/publication highlights
+- Commentary on other research, current events, etc.
 
 ---
 
@@ -26,17 +26,34 @@ Content area for articles, updates, and announcements related to network machine
 Showcase of research projects and tools developed by the group.
 
 **Featured Projects:**
-- NetML
-- nprint
-- Additional research projects
+- Data Representation
+  - NetML
+  - nprint
+- Generative AI
+  - NetDiffusion
+  - NetSSM
+  - CAIP
+- MLOps
+  - Model Maintenance / Training
+    - LEAF
+  - Optimizing Model Serving
+    - CATO
+    - Traffic Refinery
+  - Dynamic Model Execution
+    - JITI
+    - ServeFlow
+    - Cruise Control
+    - LoFi
+- Network Inference
+- Privacy (Future)
 
 **For Each Project:**
-- Project description and overview
+- Project description / overview
+  - Use cases and examples
 - GitHub repository link
 - Documentation links
+  - Installation/getting started guides
 - Key publications
-- Use cases and examples
-- Installation/getting started guides
 
 ---
 
@@ -45,7 +62,7 @@ Showcase of research projects and tools developed by the group.
 Team members and collaborators involved in the research.
 
 **Categories:**
-- Principal Investigators
+- Project Leaders
 - Postdocs
 - PhD Students
 - Master's Students
@@ -58,13 +75,12 @@ Team members and collaborators involved in the research.
 - Role/position
 - Research interests
 - Personal website/social links
-- Publications
 
 ---
 
 ## 4. Datasets and Code
 
-Repository of research datasets and code releases.
+Pointers to repositories of research datasets and code releases.
 
 **Datasets:**
 - Dataset descriptions
@@ -74,26 +90,26 @@ Repository of research datasets and code releases.
 - License information
 
 **Code:**
-- Research implementations
-- Tools and utilities
-- GitHub repositories
+- Research implementations (Github Repositories)
 - Documentation and tutorials
+  - With full instructions on how to run the implementations
 
 ---
 
-## 5. Course Materials
+## 5. Resources
 
-Educational resources for teaching and learning network machine learning.
+Resources for teaching and learning. Course materials, etc.
 
 **Components:**
 
-### Assignments
+### Assignments (Pointers)
 - Problem sets
+- In-class hands-on activities
 - Programming assignments
-- Projects
+- Project ideas / Pointers
 
-### Books
-- Recommended reading
+### Reading
+- Recommended background reading (pointers to background material, including our own)
 - Textbooks
 - Research papers
 
@@ -105,68 +121,17 @@ Educational resources for teaching and learning network machine learning.
 
 **Organization:**
 - By course/topic
-- By difficulty level
-- With supplementary materials (slides, code, etc.)
+- Pointers to any supplementary materials (slides, code, etc.)
 
 ---
 
 ## Implementation Notes
 
-- Ensure responsive design for all sections
-- Implement search functionality across content
-- Consider static site generator (Jekyll, Hugo, Next.js, etc.)
+We believe that the current template should support all of the functionality below. Please indicate if it doesn't.
+
+- Ensure responsive design for all sections (obviously)
+- Implement search functionality across content (depending on template; if too complicated, eliminate this)
+- More important than search functionality is isolation of content (publications, blog, etc.) by tags
+- Consider static site generator (Jekyll, Hugo, Next.js, etc.). We want to write everything in markdown.
 - Plan for easy content updates
-- Include analytics for tracking usage
-
-## Implementation Status
-
-### Completed (2025-11-16)
-
-1. **Blog/Posts** - Already existing, kept as-is with nav_order: 1
-   - Individual blog post pages ✓
-   - Archive/listing page ✓
-   - RSS feed support ✓
-   - Tags/categories ✓
-
-2. **People** - Created new `_people` collection
-   - Added: Chase Jiang, Van Tran, Shinan Liu, Andrew Chu, Kyle MacMillan, Paul Schmitt
-   - Categories: Faculty, Students, Alumni
-   - Page: `/people/` (nav_order: 2)
-   - Collection configured in `_config.yml`
-
-3. **Projects** - Existing `_projects` collection repurposed
-   - Page: `/projects/` (nav_order: 3)
-   - Can showcase NetML, nprint, and other research projects
-
-4. **Datasets and Code** - Created new collections
-   - Created `_datasets` collection with nPrint datasets entry
-   - Created `_code` collection with: nprint, netml, netdiffusion
-   - Combined page: `/datasets-code/` (nav_order: 4)
-   - Collections configured in `_config.yml`
-
-5. **Course Materials** - Created new `_courses` collection
-   - Added: ML for Computer Systems course
-   - Page: `/courses/` (nav_order: 5)
-   - Includes links to GitHub repo, Jupyter notebooks, readings
-   - Collection configured in `_config.yml`
-
-6. **Publications** - Already existing
-   - Updated nav_order to 6 to fit new structure
-
-### Navigation Structure
-1. Blog
-2. People
-3. Projects
-4. Datasets & Code
-5. Courses
-6. Publications
-
-### TODO
-- Review framework choice (Jekyll vs. Hugo, Next.js, etc.)
-- Review theme options
-- Add more datasets as needed
-- Add more code repositories from planning doc
-- Populate Faculty category in People section
-- Test Jekyll build (requires `bundle install`)
-- Add Google Analytics if desired
-- Enable search functionality across site
+- Include analytics for tracking usage (probably just Google Analytics, though really we don't care)
