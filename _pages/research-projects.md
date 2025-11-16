@@ -2,20 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research projects and tools developed by the group
+description: Research projects and tools organized by focus area
 nav: true
 nav_order: 3
-display_categories: []
+display_categories: [Data Representation, Generative AI, MLOps - Model Maintenance, MLOps - Model Serving, MLOps - Dynamic Execution, Network Inference]
 horizontal: false
 ---
-
-<!-- pages/research-projects.md -->
-<div class="projects">
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-<div class="row row-cols-1 row-cols-md-3">
-  {% for project in sorted_projects %}
-    {% include projects.liquid %}
-  {% endfor %}
-</div>
-</div>

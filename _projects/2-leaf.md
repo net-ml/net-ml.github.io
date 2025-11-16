@@ -4,7 +4,7 @@ title: LEAF
 description: Navigating concept drift in cellular networks
 img: assets/img/leaf.png
 importance: 2
-category: Research
+category: MLOps - Model Maintenance
 ---
 
 ![LEAF](/assets/img/leaf.png){:class="img-fluid rounded z-depth-1" style="max-width: 400px;"}

@@ -2,8 +2,8 @@
 layout: page
 title: NetML
 description: Feature extraction for novelty detection in network traffic
-importance: 7
-category: Tools
+importance: 2
+category: Data Representation
 github: https://github.com/noise-lab/netml
 ---
 

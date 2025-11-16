@@ -4,7 +4,7 @@ title: AMIR
 description: Active Multimodal Interaction Recognition from video and network traffic
 img: assets/img/amir-iotlab.png
 importance: 4
-category: Research
+category: Network Inference
 ---
 
 ![AMIR](/assets/img/amir-iotlab.png){:class="img-fluid rounded z-depth-1" style="max-width: 600px;"}
