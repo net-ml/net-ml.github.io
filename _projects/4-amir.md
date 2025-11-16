@@ -2,7 +2,7 @@
 layout: page
 title: AMIR
 description: Active Multimodal Interaction Recognition from video and network traffic
-img: assets/img/publication_preview/amir.png
+img: assets/img/amir-iotlab.png
 importance: 4
 category: Research
 ---

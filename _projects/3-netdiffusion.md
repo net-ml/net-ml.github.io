@@ -2,7 +2,7 @@
 layout: page
 title: NetDiffusion
 description: Protocol-constrained network traffic generation using diffusion models
-img: assets/img/publication_preview/netdiffusion.png
+img: assets/img/netdiffusion-diagram.png
 importance: 3
 category: Research
 github: https://github.com/noise-lab/netdiffusion

@@ -2,7 +2,7 @@
 layout: page
 title: nPrint
 description: Standardized network traffic representation for machine learning
-img: assets/img/publication_preview/nprint.png
+img: assets/img/nprint-logo.png
 importance: 1
 category: Tools
 github: https://github.com/nprint/nprint
