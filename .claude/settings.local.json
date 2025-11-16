@@ -11,7 +11,12 @@
       "Bash(git pull:*)",
       "Bash(git checkout:*)",
       "WebFetch(domain:noise-lab.net)",
-      "WebFetch(domain:netml.io)"
+      "WebFetch(domain:netml.io)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:amir-vidnet.github.io)",
+      "Bash(curl:*)",
+      "Bash(xargs:*)",
+      "Bash(convert:*)"
     ],
     "deny": [],
     "ask": []

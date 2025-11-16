@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
 
@@ -12,10 +12,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
+# NetML
 
 The NetML project is dedicated to advancing research and innovation at the intersection of machine learning (ML) and networking. Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
 
-## Our Research
+## Research
 
 We focus on several key areas:
 
@@ -25,9 +26,18 @@ We focus on several key areas:
 - **Cost-Aware ML**: Balancing model accuracy with systems-level deployment costs
 - **Multimodal Learning**: Combining network data with other signals for robust analysis
 
-## Featured Projects
+## News
 
-Explore our research through projects like [nPrint](/projects/), [LEAF](/projects/), [NetDiffusion](/projects/), [CATO](/projects/), [Traffic Refinery](/projects/), and [AMIR](/projects/).
+## Projects
+
+Explore our research [projects](/projects/):
+
+- **[nPrint](/projects/1-nprint/)** - Standardized network traffic representation for machine learning
+- **[LEAF](/projects/2-leaf/)** - Navigating concept drift in cellular networks
+- **[NetDiffusion](/projects/3-netdiffusion/)** - Protocol-constrained network traffic generation using diffusion models
+- **[CATO](/projects/6-cato/)** - End-to-end optimization of ML traffic analysis pipelines
+- **[Traffic Refinery](/projects/5-traffic-refinery/)** - Cost-aware data representation for ML on network traffic
+- **[AMIR](/projects/4-amir/)** - Active Multimodal Interaction Recognition from video and network traffic
 
 ## Open Science
 

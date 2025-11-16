@@ -7,6 +7,8 @@ importance: 6
 category: Research
 ---
 
+![CATO](/assets/img/cato-diagram.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
+
 ## Overview
 
 CATO jointly optimizes both the predictive performance and systems costs of ML-based traffic analysis serving pipelines.

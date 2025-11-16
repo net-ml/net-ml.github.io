@@ -8,6 +8,8 @@ category: Tools
 github: https://github.com/traffic-refinery
 ---
 
+![Traffic Refinery](/assets/img/system.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
+
 ## Overview
 
 Traffic Refinery is a framework and system that enables joint evaluation of ML performance (accuracy) and systems-level costs of different network traffic representations.

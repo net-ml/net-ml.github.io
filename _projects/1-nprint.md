@@ -8,6 +8,8 @@ category: Tools
 github: https://github.com/nprint/nprint
 ---
 
+![nPrint](/assets/img/nprint-logo.png){:class="img-fluid rounded z-depth-1" style="max-width: 400px;"}
+
 ## Overview
 
 nPrint is a collection of open source software and benchmarks for network traffic analysis designed to replace traditional, task-specific approaches. It offers a generalized representation enabling machine learning applications in network traffic examination.

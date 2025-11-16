@@ -7,6 +7,8 @@ importance: 2
 category: Research
 ---
 
+![LEAF](/assets/img/leaf.png){:class="img-fluid rounded z-depth-1" style="max-width: 400px;"}
+
 ## Overview
 
 LEAF (Local Error Approximation of Features) is a methodology for detecting, explaining, and mitigating concept drift in machine learning models deployed in cellular networks.

@@ -8,6 +8,8 @@ category: Research
 github: https://github.com/noise-lab/netdiffusion
 ---
 
+![NetDiffusion](/assets/img/netdiffusion-diagram.png){:class="img-fluid rounded z-depth-1" style="max-width: 600px;"}
+
 ## Overview
 
 NetDiffusion uses diffusion models to generate synthetic network traffic that is both statistically similar to real traffic and compliant with network protocol specifications.

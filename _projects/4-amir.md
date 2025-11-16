@@ -7,6 +7,8 @@ importance: 4
 category: Research
 ---
 
+![AMIR](/assets/img/amir-iotlab.png){:class="img-fluid rounded z-depth-1" style="max-width: 600px;"}
+
 ## Overview
 
 AMIR (Active Multimodal Interaction Recognition) synthesizes video and network data for robust activity recognition in connected home environments.
