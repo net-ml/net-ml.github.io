@@ -2,7 +2,7 @@
 layout: page
 title: Kyle MacMillan
 description: Ph.D./J.D. Student
-img:
+img: assets/img/kyle.jpg
 category: Students
 importance: 5
 ---
