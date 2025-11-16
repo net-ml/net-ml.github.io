@@ -183,7 +183,7 @@ ninja.data = [{
               window.location.href = "/people/paul/";
             },},{id: "people-shinan-liu",
           title: 'Shinan Liu',
-          description: "Ph.D. Student",
+          description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/shinan/";
             },},{id: "people-van-tran",
