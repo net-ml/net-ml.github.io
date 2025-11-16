@@ -186,6 +186,11 @@ ninja.data = [{
           description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/shinan/";
+            },},{id: "people-taveesh-sharma",
+          title: 'Taveesh Sharma',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/taveesh/";
             },},{id: "people-van-tran",
           title: 'Van Tran',
           description: "Ph.D. Student",
