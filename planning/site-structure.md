@@ -117,3 +117,56 @@ Educational resources for teaching and learning network machine learning.
 - Consider static site generator (Jekyll, Hugo, Next.js, etc.)
 - Plan for easy content updates
 - Include analytics for tracking usage
+
+## Implementation Status
+
+### Completed (2025-11-16)
+
+1. **Blog/Posts** - Already existing, kept as-is with nav_order: 1
+   - Individual blog post pages ✓
+   - Archive/listing page ✓
+   - RSS feed support ✓
+   - Tags/categories ✓
+
+2. **People** - Created new `_people` collection
+   - Added: Chase Jiang, Van Tran, Shinan Liu, Andrew Chu, Kyle MacMillan, Paul Schmitt
+   - Categories: Faculty, Students, Alumni
+   - Page: `/people/` (nav_order: 2)
+   - Collection configured in `_config.yml`
+
+3. **Projects** - Existing `_projects` collection repurposed
+   - Page: `/projects/` (nav_order: 3)
+   - Can showcase NetML, nprint, and other research projects
+
+4. **Datasets and Code** - Created new collections
+   - Created `_datasets` collection with nPrint datasets entry
+   - Created `_code` collection with: nprint, netml, netdiffusion
+   - Combined page: `/datasets-code/` (nav_order: 4)
+   - Collections configured in `_config.yml`
+
+5. **Course Materials** - Created new `_courses` collection
+   - Added: ML for Computer Systems course
+   - Page: `/courses/` (nav_order: 5)
+   - Includes links to GitHub repo, Jupyter notebooks, readings
+   - Collection configured in `_config.yml`
+
+6. **Publications** - Already existing
+   - Updated nav_order to 6 to fit new structure
+
+### Navigation Structure
+1. Blog
+2. People
+3. Projects
+4. Datasets & Code
+5. Courses
+6. Publications
+
+### TODO
+- Review framework choice (Jekyll vs. Hugo, Next.js, etc.)
+- Review theme options
+- Add more datasets as needed
+- Add more code repositories from planning doc
+- Populate Faculty category in People section
+- Test Jekyll build (requires `bundle install`)
+- Add Google Analytics if desired
+- Enable search functionality across site

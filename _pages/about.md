@@ -23,8 +23,26 @@ social: false # includes social icons at the bottom of the page
   </div>
   {% endif %}
 
-The NetML project is dedicated to advancing research and innovation at the intersection of machine learning (ML) and networking. Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance reliability, and tackle complex challenges in modern computer networks. At the same time, we explore how networking technologies can support and empower the application of ML at scale.
+The NetML project is dedicated to advancing research and innovation at the intersection of machine learning (ML) and networking. Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
 
-This blog serves as a hub for sharing insights, updates, and breakthroughs from our research. Whether you’re an academic, industry professional, or enthusiast, you’ll find articles on our latest findings, technical deep dives, project milestones, and thought leadership in the rapidly evolving field of ML-driven networking.
+## Our Research
 
-We invite you to join us on this exciting journey of discovery and innovation. Stay connected, and feel free to explore, learn, and engage with the NetML project community!
+We focus on several key areas:
+
+- **Network Traffic Analysis**: Developing ML techniques for traffic classification, anomaly detection, and performance inference
+- **Concept Drift**: Understanding and mitigating model degradation in dynamic network environments
+- **Generative Models**: Creating synthetic network data for training and testing
+- **Cost-Aware ML**: Balancing model accuracy with systems-level deployment costs
+- **Multimodal Learning**: Combining network data with other signals for robust analysis
+
+## Featured Projects
+
+Explore our research through projects like [nPrint](/projects/nprint/), [LEAF](/projects/leaf/), [NetDiffusion](/projects/netdiffusion/), [CATO](/projects/cato/), [Traffic Refinery](/projects/traffic-refinery/), and [AMIR](/projects/amir/).
+
+## Open Science
+
+We release datasets, code, and tools to enable reproducible research. Visit our [Datasets & Code](/datasets-code/) page to access our resources.
+
+## Get Involved
+
+Whether you're an academic, industry professional, or enthusiast, we invite you to explore our [blog](/blog/), check out our [publications](/publications/), or learn from our [course materials](/courses/).

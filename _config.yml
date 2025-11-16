@@ -144,6 +144,18 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  people:
+    output: true
+    permalink: /:collection/:title/
+  datasets:
+    output: true
+    permalink: /:collection/:title/
+  code:
+    output: true
+    permalink: /:collection/:title/
+  courses:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
