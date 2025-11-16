@@ -18,10 +18,31 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "",
+          description: "Team members and collaborators involved in network machine learning research",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
+          },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Research projects and tools developed by the group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-datasets-amp-code",
+          title: "Datasets &amp; Code",
+          description: "Repository of research datasets and code releases",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/datasets-code/";
+          },
+        },{id: "nav-course-materials",
+          title: "Course Materials",
+          description: "Educational resources for teaching and learning network machine learning",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/courses/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -85,51 +106,126 @@ ninja.data = [{
           window.location.href = "/blog/2022/traffic-refinery/";
         
       },
-    },{id: "projects-project-8",
+    },{id: "code-amir",
+          title: 'AMIR',
+          description: "Active Multimodal Interaction Recognition framework",
+          section: "Code",handler: () => {
+              window.location.href = "/code/amir/";
+            },},{id: "code-cato",
+          title: 'CATO',
+          description: "End-to-end ML traffic analysis pipeline optimizer",
+          section: "Code",handler: () => {
+              window.location.href = "/code/cato/";
+            },},{id: "code-netdiffusion",
+          title: 'NetDiffusion',
+          description: "Generative models for network traffic synthesis",
+          section: "Code",handler: () => {
+              window.location.href = "/code/netdiffusion/";
+            },},{id: "code-netml",
+          title: 'NetML',
+          description: "Python package for network traffic analysis with machine learning",
+          section: "Code",handler: () => {
+              window.location.href = "/code/netml/";
+            },},{id: "code-nprint",
+          title: 'nPrint',
+          description: "Generalized representation for network traffic analysis with machine learning",
+          section: "Code",handler: () => {
+              window.location.href = "/code/nprint/";
+            },},{id: "code-traffic-refinery",
+          title: 'Traffic Refinery',
+          description: "Cost-aware data representation analysis system",
+          section: "Code",handler: () => {
+              window.location.href = "/code/traffic-refinery/";
+            },},{id: "courses-machine-learning-for-computer-systems",
+          title: 'Machine Learning for Computer Systems',
+          description: "Applications of machine learning to computer systems with focus on networking",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/ml-systems/";
+            },},{id: "datasets-leaf-cellular-network-dataset",
+          title: 'LEAF Cellular Network Dataset',
+          description: "Concept drift dataset from cellular networks with 4+ years of data",
+          section: "Datasets",handler: () => {
+              window.location.href = "/datasets/leaf-dataset/";
+            },},{id: "datasets-nprint-project-datasets",
+          title: 'nPrint Project Datasets',
+          description: "Traffic analysis datasets encoded using pcapML",
+          section: "Datasets",handler: () => {
+              window.location.href = "/datasets/nprint-datasets/";
+            },},{id: "people-andrew-chu",
+          title: 'Andrew Chu',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/andrew/";
+            },},{id: "people-chase-jiang",
+          title: 'Chase Jiang',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/chase/";
+            },},{id: "people-francesco-bronzino",
+          title: 'Francesco Bronzino',
+          description: "Assistant Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/francesco-bronzino/";
+            },},{id: "people-kyle-macmillan",
+          title: 'Kyle MacMillan',
+          description: "Ph.D./J.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/kyle/";
+            },},{id: "people-nick-feamster",
+          title: 'Nick Feamster',
+          description: "Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/nick-feamster/";
+            },},{id: "people-paul-schmitt",
+          title: 'Paul Schmitt',
+          description: "Assistant Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/paul/";
+            },},{id: "people-shinan-liu",
+          title: 'Shinan Liu',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/shinan/";
+            },},{id: "people-van-tran",
+          title: 'Van Tran',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/van/";
+            },},{id: "projects-nprint",
+          title: 'nPrint',
+          description: "Standardized network traffic representation for machine learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1-nprint/";
+            },},{id: "projects-leaf",
+          title: 'LEAF',
+          description: "Navigating concept drift in cellular networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2-leaf/";
+            },},{id: "projects-netdiffusion",
+          title: 'NetDiffusion',
+          description: "Protocol-constrained network traffic generation using diffusion models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3-netdiffusion/";
+            },},{id: "projects-amir",
+          title: 'AMIR',
+          description: "Active Multimodal Interaction Recognition from video and network traffic",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4-amir/";
+            },},{id: "projects-traffic-refinery",
+          title: 'Traffic Refinery',
+          description: "Cost-aware data representation for ML on network traffic",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5-traffic-refinery/";
+            },},{id: "projects-cato",
+          title: 'CATO',
+          description: "End-to-end optimization of ML traffic analysis pipelines",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6-cato/";
+            },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-andrew-chu",
-          title: 'Andrew Chu',
-          description: "University of Chicago",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/andrew/";
-            },},{id: "projects-arjun-bhagoji",
-          title: 'Arjun Bhagoji',
-          description: "IIT Bombay",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/arjun/";
-            },},{id: "projects-xi-chase-jiang",
-          title: 'Xi (Chase) Jiang',
-          description: "University of Chicago",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/chase/";
-            },},{id: "projects-francesco-bronzino",
-          title: 'Francesco Bronzino',
-          description: "ENS de Lyon",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/francesco/";
-            },},{id: "projects-johann-hugon",
-          title: 'Johann Hugon',
-          description: "ENS de Lyon",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/johann/";
-            },},{id: "projects-nick-feamster",
-          title: 'Nick Feamster',
-          description: "University of Chicago",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nick/";
-            },},{id: "projects-paul-schmitt",
-          title: 'Paul Schmitt',
-          description: "Cal Poly",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/paul/";
-            },},{id: "projects-shinan-liu",
-          title: 'Shinan Liu',
-          description: "University of Chicago",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/shinan/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
