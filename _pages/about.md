@@ -28,25 +28,7 @@ We focus on several key areas:
 
 ## Projects
 
-Explore our research [projects](/projects/) organized by focus area:
-
-### Data Representation
-- **[nPrint](/projects/1-nprint/)** - Standardized network traffic representation for machine learning
-- **[NetML](/projects/7-netml/)** - Feature extraction for novelty detection in network traffic
-
-### Generative AI
-- **[NetDiffusion](/projects/3-netdiffusion/)** - Protocol-constrained network traffic generation using diffusion models
-
-### MLOps
-**Model Maintenance & Training**
-- **[LEAF](/projects/2-leaf/)** - Navigating concept drift in cellular networks
-
-**Optimizing Model Serving**
-- **[CATO](/projects/6-cato/)** - End-to-end optimization of ML traffic analysis pipelines
-- **[Traffic Refinery](/projects/5-traffic-refinery/)** - Cost-aware data representation for ML on network traffic
-
-### Network Inference
-- **[AMIR](/projects/4-amir/)** - Active Multimodal Interaction Recognition from video and network traffic
+Explore our research [projects](/projects/).
 
 ## Open Science
 
