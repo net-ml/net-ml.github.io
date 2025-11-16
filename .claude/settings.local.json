@@ -16,7 +16,9 @@
       "WebFetch(domain:amir-vidnet.github.io)",
       "Bash(curl:*)",
       "Bash(xargs:*)",
-      "Bash(convert:*)"
+      "Bash(convert:*)",
+      "Bash(identify:*)",
+      "WebFetch(domain:people.cs.uchicago.edu)"
     ],
     "deny": [],
     "ask": []

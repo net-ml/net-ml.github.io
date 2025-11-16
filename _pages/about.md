@@ -26,8 +26,6 @@ We focus on several key areas:
 - **Cost-Aware ML**: Balancing model accuracy with systems-level deployment costs
 - **Multimodal Learning**: Combining network data with other signals for robust analysis
 
-## News
-
 ## Projects
 
 Explore our research [projects](/projects/):
