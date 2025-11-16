@@ -2,10 +2,13 @@
 layout: page
 title: NetML
 description: Feature extraction for novelty detection in network traffic
+img: assets/img/netml.png
 importance: 2
 category: Data Representation
 github: https://github.com/noise-lab/netml
 ---
+
+![NetML](/assets/img/netml.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
 
 ## Overview
 
