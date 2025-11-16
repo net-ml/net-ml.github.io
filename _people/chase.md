@@ -2,7 +2,7 @@
 layout: page
 title: Chase Jiang
 description: Ph.D. Student
-img: https://noise-lab.net/photos/chase.jpg
+img: assets/img/chase.jpeg
 category: Students
 importance: 1
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Shinan Liu
 description: Ph.D. Student
-img: https://noise-lab.net/photos/shinan.jpg
+img: assets/img/shinan.jpg
 category: Students
 importance: 3
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Francesco Bronzino
 description: Assistant Professor
-img: https://noise-lab.net/photos/francesco.jpg
+img: assets/img/francesco.jpg
 category: Faculty
 importance: 2
 ---

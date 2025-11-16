@@ -2,7 +2,7 @@
 layout: page
 title: Andrew Chu
 description: Ph.D. Student
-img: https://noise-lab.net/photos/andrew.jpg
+img: assets/img/andrew.jpeg
 category: Students
 importance: 4
 ---

@@ -9,20 +9,26 @@ nav_order: 4
 
 ## Datasets
 
-<div class="projects">
-<div class="row row-cols-1 row-cols-md-2">
-  {% for dataset in site.datasets %}
-    {% include projects.liquid project=dataset %}
-  {% endfor %}
-</div>
-</div>
+{% for dataset in site.datasets %}
+### {{ dataset.title }}
+
+{{ dataset.description }}
+
+[View Details]({{ dataset.url | relative_url }})
+
+---
+{% endfor %}
 
 ## Code & Tools
 
-<div class="projects">
-<div class="row row-cols-1 row-cols-md-3">
-  {% for code in site.code %}
-    {% include projects.liquid project=code %}
-  {% endfor %}
-</div>
-</div>
+{% for code in site.code %}
+### {{ code.title }}
+
+{{ code.description }}
+
+{% if code.github %}**GitHub:** [{{ code.github }}]({{ code.github }}){% endif %}
+
+[View Details]({{ code.url | relative_url }})
+
+---
+{% endfor %}

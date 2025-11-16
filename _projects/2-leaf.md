@@ -2,7 +2,7 @@
 layout: page
 title: LEAF
 description: Navigating concept drift in cellular networks
-img: assets/img/leaf.jpg
+img: assets/img/leaf.png
 importance: 2
 category: Research
 ---

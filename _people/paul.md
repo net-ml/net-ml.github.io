@@ -2,7 +2,7 @@
 layout: page
 title: Paul Schmitt
 description: Assistant Professor
-img: https://noise-lab.net/photos/paul.jpg
+img: assets/img/paul.jpg
 category: Faculty
 importance: 3
 ---

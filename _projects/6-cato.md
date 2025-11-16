@@ -2,7 +2,7 @@
 layout: page
 title: CATO
 description: End-to-end optimization of ML traffic analysis pipelines
-img: assets/img/cato.jpg
+img: assets/img/publication_preview/cato.png
 importance: 6
 category: Research
 ---

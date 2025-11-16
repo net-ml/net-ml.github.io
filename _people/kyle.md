@@ -2,7 +2,7 @@
 layout: page
 title: Kyle MacMillan
 description: Ph.D./J.D. Student
-img: https://noise-lab.net/photos/kyle.jpg
+img: assets/img/prof_pic.jpg
 category: Students
 importance: 5
 ---

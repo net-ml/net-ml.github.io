@@ -2,7 +2,7 @@
 layout: page
 title: Van Tran
 description: Ph.D. Student
-img: https://noise-lab.net/photos/van.jpg
+img: assets/img/prof_pic.jpg
 category: Students
 importance: 2
 ---

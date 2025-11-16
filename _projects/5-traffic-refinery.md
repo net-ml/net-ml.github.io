@@ -2,7 +2,7 @@
 layout: page
 title: Traffic Refinery
 description: Cost-aware data representation for ML on network traffic
-img: assets/img/traffic-refinery.jpg
+img: assets/img/system.png
 importance: 5
 category: Tools
 github: https://github.com/traffic-refinery

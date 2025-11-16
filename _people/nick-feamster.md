@@ -2,7 +2,7 @@
 layout: page
 title: Nick Feamster
 description: Professor
-img: https://noise-lab.net/photos/nick.jpg
+img: assets/img/nick.jpg
 category: Faculty
 importance: 1
 ---
