@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Shinan Liu
-description: Ph.D. Student
+description: Assistant Professor
 img: assets/img/shinan.jpg
-category: Students
-importance: 3
+category: Faculty
+importance: 4
 ---
+
+**Position:** Assistant Professor
 
 **Research Interests:** Activity Recognition, ML
 
