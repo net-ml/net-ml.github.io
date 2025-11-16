@@ -221,6 +221,11 @@ ninja.data = [{
           description: "End-to-end optimization of ML traffic analysis pipelines",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6-cato/";
+            },},{id: "projects-netml",
+          title: 'NetML',
+          description: "Feature extraction for novelty detection in network traffic",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7-netml/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
