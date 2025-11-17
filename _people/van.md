@@ -2,7 +2,7 @@
 layout: page
 title: Van Tran
 description: Ph.D. Student
-img: assets/img/prof_pic.jpg
+img: assets/img/van-tran.jpg
 category: Students
 importance: 2
 ---
