@@ -52,4 +52,4 @@ We release datasets, code, and tools to enable reproducible research. Visit our 
 
 ## Get Involved
 
-Whether you're an academic, industry professional, or enthusiast, we invite you to explore our [blog](/blog/), check out our [publications](/publications/), or learn from our [course materials](/courses/).
+Whether you're an academic, industry professional, or enthusiast, we invite you to explore our [updates](/blog/), check out our [publications](/publications/), or learn from our [course materials](/courses/).
