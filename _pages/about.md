@@ -14,7 +14,11 @@ social: false # includes social icons at the bottom of the page
 
 # NetML
 
-The NetML project is dedicated to advancing research and innovation at the intersection of machine learning (ML) and networking. Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
+The NetML project has been pioneering the application of machine learning to networking problems since 2006. We were the first to apply ML-based analysis to network traffic for security applications including spam detection, botnet detection, and phishing—with foundational work dating back to 2006. Since 2008, we have also been applying machine learning to network performance analysis problems.
+
+The current group of researchers has been working together steadily since 2017, when we began developing ML models for inference from encrypted network traffic. Our work has been featured on the [front page of the Wall Street Journal](https://www.wsj.com/graphics/faster-internet-not-worth-it/) in 2019.
+
+Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
 
 ## Research
 
@@ -63,6 +67,6 @@ Whether you're an academic, industry professional, or enthusiast, we invite you 
 This research is supported by:
 
 - **DARPA** - [Provably Weird Network Deployment and Detection (PWND²)](https://www.darpa.mil/research/programs/provably-weird-network)
-- **National Science Foundation** - Awards [2319603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2319603) and [2213821](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213821)
+- **National Science Foundation** - Awards [2319603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2319603), [2213821](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213821), and [IIS-2229876](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229876) (ACTION AI Institute)
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of DARPA or the National Science Foundation.
