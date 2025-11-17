@@ -204,7 +204,7 @@ ninja.data = [{
               window.location.href = "/people/johann-hugon/";
             },},{id: "people-jonatas-marques",
           title: 'Jonatas Marques',
-          description: "Ph.D. Student",
+          description: "Postdoc",
           section: "People",handler: () => {
               window.location.href = "/people/jonatas-marques/";
             },},{id: "people-kyle-macmillan",
@@ -267,11 +267,6 @@ ninja.data = [{
           description: "Professor",
           section: "People",handler: () => {
               window.location.href = "/people/vitaly-shmatikov/";
-            },},{id: "people-xi-jiang",
-          title: 'Xi Jiang',
-          description: "Ph.D. Student",
-          section: "People",handler: () => {
-              window.location.href = "/people/xi-jiang/";
             },},{id: "people-zakir-durumeric",
           title: 'Zakir Durumeric',
           description: "Assistant Professor",
