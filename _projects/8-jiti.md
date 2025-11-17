@@ -8,7 +8,7 @@ category: MLOps - Dynamic Model Execution
 github: https://github.com/noise-lab/JITI
 ---
 
-![JITI](/assets/img/jiti-thumb.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
+![JITI](/assets/img/jiti.png){:class="img-fluid rounded z-depth-1"}
 
 ## Overview
 
