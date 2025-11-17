@@ -167,6 +167,11 @@ ninja.data = [{
           description: "Associate Professor &amp; Chair",
           section: "People",handler: () => {
               window.location.href = "/people/aaron-gember-jacobson/";
+            },},{id: "people-alex-gray",
+          title: 'Alex Gray',
+          description: "Founder and CEO",
+          section: "People",handler: () => {
+              window.location.href = "/people/alex-gray/";
             },},{id: "people-andrew-chu",
           title: 'Andrew Chu',
           description: "Ph.D. Student",
