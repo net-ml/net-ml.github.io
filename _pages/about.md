@@ -14,7 +14,7 @@ social: false # includes social icons at the bottom of the page
 
 # NetML
 
-The NetML project has been pioneering the application of machine learning to networking problems since 2006. We were the first to apply ML-based analysis to network traffic for security applications including spam detection, botnet detection, and phishing—with foundational work dating back to 2006. Since 2008, we have also been applying machine learning to network performance analysis problems.
+The NetML project has been pioneering the application of machine learning to networking problems since 2006. We were the first to apply ML-based analysis to network traffic for security applications including spam detection, botnet detection, and phishing. Since 2008, we have also been applying machine learning to network performance analysis problems.
 
 The current group of researchers has been working together steadily since 2017, when we began developing ML models for inference from encrypted network traffic. Our work has been featured on the [front page of the Wall Street Journal](https://www.wsj.com/graphics/faster-internet-not-worth-it/) in 2019.
 
