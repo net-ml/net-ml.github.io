@@ -61,8 +61,6 @@ Whether you're an academic, industry professional, or enthusiast, we invite you 
 This research is supported by:
 
 - **DARPA** - [Provably Weird Network Deployment and Detection (PWND²)](https://www.darpa.mil/research/programs/provably-weird-network)
-- **National Science Foundation**
-  - CNS-2131826: *Closing the Reality Gap for Learning-Augmented Network Systems*
-  - CNS-2133452: *A Unified Approach to Internet Performance Measurement*
+- **National Science Foundation** - Awards [2319603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2319603) and [2213821](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213821)
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of DARPA or the National Science Foundation.
