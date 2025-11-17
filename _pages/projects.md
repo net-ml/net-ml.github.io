@@ -10,6 +10,7 @@ horizontal: false
 ---
 
 <!-- pages/people.md -->
+<!-- Force rebuild -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized people -->
