@@ -2,7 +2,7 @@
 layout: page
 title: Siddanth Ray
 description: Ph.D. Student
-img: assets/img/prof_pic.jpg
+img: assets/img/siddanth-ray.jpg
 category: Students
 importance: 9
 ---

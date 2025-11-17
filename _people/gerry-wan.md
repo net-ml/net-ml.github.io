@@ -2,7 +2,7 @@
 layout: page
 title: Gerry Wan
 description: Ph.D. Student
-img: assets/img/prof_pic.jpg
+img: assets/img/gerry-wan.jpg
 category: Students
 importance: 12
 ---
