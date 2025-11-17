@@ -55,7 +55,7 @@ ninja.data = [{
       
         title: "Beyond Data Points: Regionalizing Crowdsourced Latency Measurements",
       
-      description: "Understanding internet performance at regional scales through crowdsourced measurements",
+      description: "Understanding Internet performance at regional scales through crowdsourced measurements",
       section: "Posts",
       handler: () => {
         
