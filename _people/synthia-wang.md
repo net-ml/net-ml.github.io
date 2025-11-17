@@ -2,7 +2,7 @@
 layout: page
 title: Synthia Wang
 description: Ph.D. Student
-img: assets/img/prof_pic.jpg
+img: assets/img/synthia-wang.jpg
 category: Students
 importance: 8
 ---

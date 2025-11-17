@@ -31,7 +31,12 @@
       "Bash(/tmp/jiti.pdf)",
       "Bash(wget:*)",
       "WebFetch(domain:www.nsf.gov)",
-      "WebFetch(domain:johannhugon.com)"
+      "WebFetch(domain:johannhugon.com)",
+      "Bash(cat:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh api:*)",
+      "Bash(gh run view:*)"
     ],
     "deny": [],
     "ask": []

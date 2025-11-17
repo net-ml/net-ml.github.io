@@ -2,7 +2,7 @@
 layout: page
 title: Noah Apthorpe
 description: Assistant Professor
-img: assets/img/prof_pic.jpg
+img: assets/img/noah-apthorpe.jpg
 category: Collaborators
 importance: 8
 ---
