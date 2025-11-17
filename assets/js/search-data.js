@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-people",
-          title: "People",
-          description: "Team members and collaborators involved in network machine learning research",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Research projects and tools",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "nav-datasets-amp-code",
           title: "Datasets &amp; Code",
@@ -37,19 +37,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/datasets-code/";
           },
+        },{id: "nav-people",
+          title: "People",
+          description: "Team members and collaborators involved in network machine learning research",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/people/";
+          },
         },{id: "nav-course-materials",
           title: "Course Materials",
           description: "Educational resources for teaching and learning network machine learning",
           section: "Navigation",
           handler: () => {
             window.location.href = "/courses/";
-          },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
           },
         },{id: "post-optimizing-ml-based-traffic-analysis-with-cato",
       
