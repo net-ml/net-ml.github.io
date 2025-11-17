@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/courses/";
           },
-        },{id: "post-optimizing-ml-based-traffic-analysis-with-cato",
+        },{id: "post-beyond-data-points-regionalizing-crowdsourced-latency-measurements",
+      
+        title: "Beyond Data Points: Regionalizing Crowdsourced Latency Measurements",
+      
+      description: "Understanding internet performance at regional scales through crowdsourced measurements",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/regionalizing-latency/";
+        
+      },
+    },{id: "post-optimizing-ml-based-traffic-analysis-with-cato",
       
         title: "Optimizing ML-Based Traffic Analysis with CATO",
       
