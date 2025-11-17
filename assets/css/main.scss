@@ -23,3 +23,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+// Custom styles - scroll offset for anchor links
+.projects .col[id] {
+  scroll-margin-top: 100px;
+}
