@@ -211,6 +211,11 @@ ninja.data = [{
           description: "Fast-slow model architecture for network traffic analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11-serveflow/";
+            },},{id: "projects-cruise-control",
+          title: 'Cruise Control',
+          description: "Dynamic model selection for ML-based network traffic analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12-cruise-control/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
