@@ -231,6 +231,11 @@ ninja.data = [{
           description: "Feature extraction for novelty detection in network traffic",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7-netml/";
+            },},{id: "projects-jiti",
+          title: 'JITI',
+          description: "Adaptive ensemble classification for network traffic identification",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8-jiti/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
