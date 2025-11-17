@@ -46,7 +46,7 @@ We focus on several key areas:
 
 Explore our research [projects](/projects/).
 
-## Open Science
+## Datasets and Code
 
 We release datasets, code, and tools to enable reproducible research. Visit our [Datasets & Code](/datasets-code/) page to access our resources.
 
