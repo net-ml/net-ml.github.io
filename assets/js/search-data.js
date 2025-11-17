@@ -166,6 +166,11 @@ ninja.data = [{
           description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/francesco-bronzino/";
+            },},{id: "people-johann-hugon",
+          title: 'Johann Hugon',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/johann-hugon/";
             },},{id: "people-kyle-macmillan",
           title: 'Kyle MacMillan',
           description: "Ph.D./J.D. Student",
