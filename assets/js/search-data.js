@@ -236,6 +236,11 @@ ninja.data = [{
           description: "Adaptive ensemble classification for network traffic identification",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8-jiti/";
+            },},{id: "projects-netssm",
+          title: 'NetSSM',
+          description: "Multi-flow and state-aware network trace generation using state-space models",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9-netssm/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
