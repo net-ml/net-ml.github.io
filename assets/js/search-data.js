@@ -201,6 +201,11 @@ ninja.data = [{
           description: "Standardized network traffic representation for machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1-nprint/";
+            },},{id: "projects-caip",
+          title: 'CAIP',
+          description: "Context-aware iterative prompting for detecting router misconfigurations with LLMs",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10-caip/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
