@@ -48,9 +48,7 @@ Explore our research [projects](/projects/).
 
 ## News
 
-{% if site.latest_posts and site.latest_posts.enabled %}
 {% include latest_posts.liquid %}
-{% endif %}
 
 ## Datasets and Code
 
