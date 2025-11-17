@@ -46,8 +46,6 @@ We focus on several key areas:
 
 Explore our research [projects](/projects/).
 
-## News
-
 {% include latest_posts.liquid %}
 
 ## Datasets and Code
