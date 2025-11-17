@@ -20,9 +20,9 @@ The current group of researchers has been working together steadily since 2017, 
 
 Our mission is to develop cutting-edge solutions that apply ML to optimize network performance, enhance security, and tackle complex challenges in modern computer networks.
 
-## Research
+## Current Research
 
-We focus on several key areas:
+Our current research focuses on several key areas:
 
 - **Data Representation**: Developing efficient and effective representations of network traffic for ML tasks
   - [nPrint](/projects/#nprint): Packet-level feature extraction
