@@ -139,6 +139,13 @@
       </div>
     </div>
   </nav>
+
+  <!-- Banner -->
+  <div class="header-banner" style="width: 100%; height: 200px; overflow: hidden; position: relative;">
+    <img src="{{ '/assets/img/banner.jpg' | relative_url }}" alt="NetML Banner" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.4));"></div>
+  </div>
+
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
     <progress id="progress" value="0">
