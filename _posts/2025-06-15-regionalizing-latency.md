@@ -2,7 +2,7 @@
 layout: post
 title: "Beyond Data Points: Regionalizing Crowdsourced Latency Measurements"
 date: 2025-06-15
-description: "Understanding internet performance at regional scales through crowdsourced measurements"
+description: "Understanding Internet performance at regional scales through crowdsourced measurements"
 tags: measurement
 categories: research
 author: "Taveesh Sharma"
@@ -10,11 +10,11 @@ author: "Taveesh Sharma"
 
 # Beyond Data Points: Regionalizing Crowdsourced Latency Measurements
 
-*Abstract.* Crowdsourced latency measurements have become an essential tool for understanding internet performance across diverse geographic regions. However, most existing approaches treat these measurements as isolated data points, failing to capture the regional patterns and spatial correlations that are crucial for understanding internet quality at scale. In this work, we introduce a framework for regionalizing crowdsourced latency measurements, enabling more accurate and representative characterizations of internet performance. Our approach aggregates individual measurements into meaningful regional summaries while accounting for measurement biases, spatial heterogeneity, and temporal variations. We demonstrate that regional-level analysis provides more stable and actionable insights compared to point-based approaches, particularly for applications in policy analysis, infrastructure planning, and network performance monitoring.
+*Abstract.* Crowdsourced latency measurements have become an essential tool for understanding Internet performance across diverse geographic regions. However, most existing approaches treat these measurements as isolated data points, failing to capture the regional patterns and spatial correlations that are crucial for understanding Internet quality at scale. In this work, we introduce a framework for regionalizing crowdsourced latency measurements, enabling more accurate and representative characterizations of Internet performance. Our approach aggregates individual measurements into meaningful regional summaries while accounting for measurement biases, spatial heterogeneity, and temporal variations. We demonstrate that regional-level analysis provides more stable and actionable insights compared to point-based approaches, particularly for applications in policy analysis, infrastructure planning, and network performance monitoring.
 
 ## The Challenge of Crowdsourced Measurements
 
-Crowdsourced latency measurements, collected from thousands of devices across different networks and locations, offer unprecedented visibility into internet performance. Platforms like M-Lab, Speedtest, and FCC's Measuring Broadband America have generated millions of measurements that help us understand connectivity quality worldwide.
+Crowdsourced latency measurements, collected from thousands of devices across different networks and locations, offer unprecedented visibility into Internet performance. Platforms like M-Lab, Speedtest, and FCC's Measuring Broadband America have generated millions of measurements that help us understand connectivity quality worldwide.
 
 However, analyzing these measurements presents significant challenges:
 
@@ -68,7 +68,7 @@ For example, we found that while individual measurements in rural counties show 
 
 ## Why This Matters
 
-As internet connectivity becomes increasingly essential for education, work, and civic participation, understanding performance at regional scales is crucial for:
+As Internet connectivity becomes increasingly essential for education, work, and civic participation, understanding performance at regional scales is crucial for:
 
 - **Broadband policy**: Identifying areas that need infrastructure investment
 - **Digital equity**: Understanding performance disparities across communities
@@ -86,7 +86,7 @@ This work opens several exciting directions for future research:
 - **Causal analysis**: Understanding what factors drive regional performance differences
 - **Global application**: Applying these methods to measurements from diverse countries and regulatory contexts
 
-By moving beyond individual data points to regional perspectives, we can develop a more comprehensive and actionable understanding of internet performance worldwide.
+By moving beyond individual data points to regional perspectives, we can develop a more comprehensive and actionable understanding of Internet performance worldwide.
 
 ### Resources
 
