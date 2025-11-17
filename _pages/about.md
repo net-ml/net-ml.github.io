@@ -7,7 +7,7 @@ subtitle:
 profile:
 
 news: false # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
@@ -45,6 +45,12 @@ We focus on several key areas:
 ## Projects
 
 Explore our research [projects](/projects/).
+
+## News
+
+{% if site.latest_posts and site.latest_posts.enabled %}
+{% include latest_posts.liquid %}
+{% endif %}
 
 ## Datasets and Code
 
