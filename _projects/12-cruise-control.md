@@ -2,9 +2,12 @@
 layout: page
 title: Cruise Control
 description: Dynamic model selection for ML-based network traffic analysis
+img: assets/img/cruise-control-thumb.png
 importance: 12
 category: MLOps - Dynamic Model Execution
 ---
+
+![Cruise Control](/assets/img/cruise-control-thumb.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
 
 ## Overview
 

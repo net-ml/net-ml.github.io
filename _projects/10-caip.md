@@ -2,9 +2,12 @@
 layout: page
 title: CAIP
 description: Context-aware iterative prompting for detecting router misconfigurations with LLMs
+img: assets/img/caip-thumb.png
 importance: 10
 category: Network Inference
 ---
+
+![CAIP](/assets/img/caip-thumb.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
 
 ## Overview
 

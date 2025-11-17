@@ -2,10 +2,13 @@
 layout: page
 title: NetSSM
 description: Multi-flow and state-aware network trace generation using state-space models
+img: assets/img/netssm-thumb.png
 importance: 9
 category: Generative AI
 github: https://github.com/noise-lab/netssm
 ---
+
+![NetSSM](/assets/img/netssm-thumb.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
 
 ## Overview
 
