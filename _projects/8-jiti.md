@@ -4,7 +4,7 @@ title: JITI
 description: Adaptive ensemble classification for network traffic identification
 img: assets/img/jiti-thumb.png
 importance: 8
-category: MLOps - Dynamic Model Execution
+category: Dynamic Model Execution
 github: https://github.com/noise-lab/JITI
 ---
 

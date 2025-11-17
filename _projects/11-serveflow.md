@@ -4,7 +4,7 @@ title: ServeFlow
 description: Fast-slow model architecture for network traffic analysis
 img: assets/img/serveflow-thumb.png
 importance: 11
-category: MLOps - Dynamic Model Execution
+category: Dynamic Model Execution
 ---
 
 ![ServeFlow](/assets/img/serveflow-thumb.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}

@@ -4,7 +4,7 @@ title: NetDiffusion
 description: Protocol-constrained network traffic generation using diffusion models
 img: assets/img/netdiffusion-diagram.png
 importance: 3
-category: Generative AI
+category: Synthetic Data Generation
 github: https://github.com/noise-lab/netdiffusion
 ---
 

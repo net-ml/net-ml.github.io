@@ -2,13 +2,13 @@
 layout: page
 title: Traffic Refinery
 description: Cost-aware data representation for ML on network traffic
-img: assets/img/system.png
+img: assets/img/tr.png
 importance: 5
-category: MLOps - Model Serving
+category: Model Serving and Maintenance
 github: https://github.com/traffic-refinery
 ---
 
-![Traffic Refinery](/assets/img/system.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
+![Traffic Refinery](/assets/img/tr.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
 
 ## Overview
 

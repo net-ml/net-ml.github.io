@@ -4,7 +4,7 @@ title: CATO
 description: End-to-end optimization of ML traffic analysis pipelines
 img: assets/img/cato-diagram.png
 importance: 6
-category: MLOps - Model Serving
+category: Model Serving and Maintenance
 ---
 
 ![CATO](/assets/img/cato-diagram.png){:class="img-fluid rounded z-depth-1" style="max-width: 500px;"}
