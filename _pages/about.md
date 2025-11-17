@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle:
+description: The nexus of networking and AI/ML research - advancing the intersection of machine learning and computer networks
 
 profile:
 
