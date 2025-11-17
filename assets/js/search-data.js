@@ -237,6 +237,11 @@ ninja.data = [{
           description: "Professor",
           section: "People",handler: () => {
               window.location.href = "/people/vitaly-shmatikov/";
+            },},{id: "people-zakir-durumeric",
+          title: 'Zakir Durumeric',
+          description: "Assistant Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/zakir-durumeric/";
             },},{id: "projects-nprint",
           title: 'nPrint',
           description: "Standardized network traffic representation for machine learning",
