@@ -206,6 +206,11 @@ ninja.data = [{
           description: "Context-aware iterative prompting for detecting router misconfigurations with LLMs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10-caip/";
+            },},{id: "projects-serveflow",
+          title: 'ServeFlow',
+          description: "Fast-slow model architecture for network traffic analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11-serveflow/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
