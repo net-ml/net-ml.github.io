@@ -192,11 +192,21 @@ ninja.data = [{
           description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/francesco-bronzino/";
+            },},{id: "people-gerry-wan",
+          title: 'Gerry Wan',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/gerry-wan/";
             },},{id: "people-johann-hugon",
           title: 'Johann Hugon',
           description: "Ph.D. Student",
           section: "People",handler: () => {
               window.location.href = "/people/johann-hugon/";
+            },},{id: "people-jonatas-marques",
+          title: 'Jonatas Marques',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/jonatas-marques/";
             },},{id: "people-kyle-macmillan",
           title: 'Kyle MacMillan',
           description: "Ph.D./J.D. Student",
@@ -207,6 +217,11 @@ ninja.data = [{
           description: "Professor",
           section: "People",handler: () => {
               window.location.href = "/people/nick-feamster/";
+            },},{id: "people-noah-apthorpe",
+          title: 'Noah Apthorpe',
+          description: "Assistant Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/noah-apthorpe/";
             },},{id: "people-paul-schmitt",
           title: 'Paul Schmitt',
           description: "Assistant Professor",
@@ -227,6 +242,16 @@ ninja.data = [{
           description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/shinan/";
+            },},{id: "people-siddanth-ray",
+          title: 'Siddanth Ray',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/siddanth-ray/";
+            },},{id: "people-synthia-wang",
+          title: 'Synthia Wang',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/synthia-wang/";
             },},{id: "people-taveesh-sharma",
           title: 'Taveesh Sharma',
           description: "Ph.D. Student",
@@ -242,6 +267,11 @@ ninja.data = [{
           description: "Professor",
           section: "People",handler: () => {
               window.location.href = "/people/vitaly-shmatikov/";
+            },},{id: "people-xi-jiang",
+          title: 'Xi Jiang',
+          description: "Ph.D. Student",
+          section: "People",handler: () => {
+              window.location.href = "/people/xi-jiang/";
             },},{id: "people-zakir-durumeric",
           title: 'Zakir Durumeric',
           description: "Assistant Professor",
