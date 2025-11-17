@@ -4,7 +4,7 @@ title: Course Materials
 permalink: /courses/
 description: Educational resources for teaching and learning network machine learning
 nav: true
-nav_order: 5
+nav_order: 7
 ---
 
 ## Machine Learning for Computer Systems

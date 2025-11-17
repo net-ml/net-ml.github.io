@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 description: Team members and collaborators involved in network machine learning research
 nav: true
-nav_order: 2
+nav_order: 6
 display_categories: [Faculty, Students, Alumni]
 horizontal: false
 ---
