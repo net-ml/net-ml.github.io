@@ -267,6 +267,11 @@ ninja.data = [{
           description: "Dynamic model selection for ML-based network traffic analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12-cruise-control/";
+            },},{id: "projects-wise",
+          title: 'WISE',
+          description: "What-If Scenario Evaluator for network deployment and configuration",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13-wise/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
