@@ -151,11 +151,21 @@ ninja.data = [{
           description: "Traffic analysis datasets encoded using pcapML",
           section: "Datasets",handler: () => {
               window.location.href = "/datasets/nprint-datasets/";
+            },},{id: "people-aaron-gember-jacobson",
+          title: 'Aaron Gember-Jacobson',
+          description: "Associate Professor &amp; Chair",
+          section: "People",handler: () => {
+              window.location.href = "/people/aaron-gember-jacobson/";
             },},{id: "people-andrew-chu",
           title: 'Andrew Chu',
           description: "Ph.D. Student",
           section: "People",handler: () => {
               window.location.href = "/people/andrew/";
+            },},{id: "people-arjun-nitin-bhagoji",
+          title: 'Arjun Nitin Bhagoji',
+          description: "Assistant Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/arjun-bhagoji/";
             },},{id: "people-chase-jiang",
           title: 'Chase Jiang',
           description: "Ph.D. Student",
@@ -186,6 +196,16 @@ ninja.data = [{
           description: "Assistant Professor",
           section: "People",handler: () => {
               window.location.href = "/people/paul/";
+            },},{id: "people-prateek-mittal",
+          title: 'Prateek Mittal',
+          description: "Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/prateek-mittal/";
+            },},{id: "people-samory-kpotufe",
+          title: 'Samory Kpotufe',
+          description: "Associate Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/samory-kpotufe/";
             },},{id: "people-shinan-liu",
           title: 'Shinan Liu',
           description: "Assistant Professor",
@@ -201,6 +221,11 @@ ninja.data = [{
           description: "Ph.D. Student",
           section: "People",handler: () => {
               window.location.href = "/people/van/";
+            },},{id: "people-vitaly-shmatikov",
+          title: 'Vitaly Shmatikov',
+          description: "Professor",
+          section: "People",handler: () => {
+              window.location.href = "/people/vitaly-shmatikov/";
             },},{id: "projects-nprint",
           title: 'nPrint',
           description: "Standardized network traffic representation for machine learning",
