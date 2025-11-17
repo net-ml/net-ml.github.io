@@ -21,26 +21,26 @@ The NetML project is dedicated to advancing research and innovation at the inter
 We focus on several key areas:
 
 - **Data Representation**: Developing efficient and effective representations of network traffic for ML tasks
-  - [nPrint](/projects/#Data%20Representation): Packet-level feature extraction
-  - [NetML](/projects/#Data%20Representation): Feature extraction for novelty detection
+  - [nPrint](/projects/#nprint): Packet-level feature extraction
+  - [NetML](/projects/#netml): Feature extraction for novelty detection
 
 - **Synthetic Data Generation**: Creating high-fidelity synthetic network data for training and testing
-  - [NetDiffusion](/projects/#Synthetic%20Data%20Generation): Protocol-constrained traffic generation
-  - [NetSSM](/projects/#Synthetic%20Data%20Generation): State-space models for multi-flow trace generation
+  - [NetDiffusion](/projects/#netdiffusion): Protocol-constrained traffic generation
+  - [NetSSM](/projects/#netssm): State-space models for multi-flow trace generation
 
 - **Multimodal Inference**: Combining network data with other signals for robust analysis
-  - [AMIR](/projects/#Multimodal%20Inference): Video quality inference from encrypted traffic
-  - [CAIP](/projects/#Multimodal%20Inference): LLM-based router misconfiguration detection
+  - [AMIR](/projects/#amir): Video quality inference from encrypted traffic
+  - [CAIP](/projects/#caip): LLM-based router misconfiguration detection
 
 - **Model Serving and Maintenance**: Balancing model accuracy with systems-level deployment costs
-  - [LEAF](/projects/#Model%20Serving%20and%20Maintenance): Navigating concept drift in cellular networks
-  - [CATO](/projects/#Model%20Serving%20and%20Maintenance): End-to-end optimization of ML pipelines
-  - [Traffic Refinery](/projects/#Model%20Serving%20and%20Maintenance): Cost-aware data representation
+  - [LEAF](/projects/#leaf): Navigating concept drift in cellular networks
+  - [CATO](/projects/#cato): End-to-end optimization of ML pipelines
+  - [Traffic Refinery](/projects/#traffic-refinery): Cost-aware data representation
 
 - **Dynamic Model Execution**: Adaptive model selection and scheduling for real-time network analysis
-  - [JITI](/projects/#Dynamic%20Model%20Execution): Adaptive ensemble classification
-  - [ServeFlow](/projects/#Dynamic%20Model%20Execution): Fast-slow model architecture
-  - [Cruise Control](/projects/#Dynamic%20Model%20Execution): Dynamic model selection
+  - [JITI](/projects/#jiti): Adaptive ensemble classification
+  - [ServeFlow](/projects/#serveflow): Fast-slow model architecture
+  - [Cruise Control](/projects/#cruise-control): Dynamic model selection
 
 ## Projects
 
