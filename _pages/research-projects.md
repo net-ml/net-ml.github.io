@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects and tools
 nav: true
 nav_order: 3
-display_categories: [Data Representation, Network Inference, Generative AI, MLOps - Model Maintenance, MLOps - Model Serving]
+display_categories: [Data Representation, Network Inference, Generative AI, MLOps - Model Maintenance, MLOps - Model Serving, MLOps - Dynamic Model Execution]
 horizontal: false
 ---
 
