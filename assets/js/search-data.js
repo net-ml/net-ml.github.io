@@ -297,6 +297,11 @@ ninja.data = [{
           description: "What-If Scenario Evaluator for network deployment and configuration",
           section: "Projects",handler: () => {
               window.location.href = "/projects/13-wise/";
+            },},{id: "projects-swiftqueue",
+          title: 'SwiftQueue',
+          description: "Per-packet latency prediction for optimizing L4S queue selection",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/14-swiftqueue/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
