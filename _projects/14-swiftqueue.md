@@ -8,6 +8,8 @@ category: Dynamic Model Execution
 github: https://github.com/noise-lab/SwiftQueue
 ---
 
+![SwiftQueue Architecture](/assets/img/swiftqueue.png){:class="img-fluid rounded z-depth-1"}
+
 ## Overview
 
 SwiftQueue is a novel L4S (Low Latency, Low Loss, and Scalable Throughput) queue-selection strategy that uses a custom Transformer-based latency predictor to dynamically assign packets to queues on a per-packet basis, rather than the traditional per-flow approach.
