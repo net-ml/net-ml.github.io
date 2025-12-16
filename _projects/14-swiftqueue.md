@@ -4,7 +4,7 @@ title: SwiftQueue
 description: Per-packet latency prediction for optimizing L4S queue selection
 img: assets/img/swiftqueue-thumb.png
 importance: 14
-category: Dynamic Model Execution
+category: Multimodal Inference
 github: https://github.com/noise-lab/SwiftQueue
 ---
 

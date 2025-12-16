@@ -36,6 +36,7 @@ Our current research focuses on several key areas:
 - **Multimodal Inference**: Combining network data with other signals for robust analysis
   - [AMIR](/projects/#amir): Video quality inference from encrypted traffic
   - [CAIP](/projects/#caip): LLM-based router misconfiguration detection
+  - [SwiftQueue](/projects/#swiftqueue): Per-packet latency prediction for L4S queue selection
 
 - **Model Serving and Maintenance**: Balancing model accuracy with systems-level deployment costs
   - [LEAF](/projects/#leaf): Navigating concept drift in cellular networks
