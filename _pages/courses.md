@@ -34,6 +34,21 @@ This course covers applications of machine learning to computer systems, with a 
 - Timeseries analysis and reinforcement learning
 - Model performance and maintenance
 
+## Network Measurements
+
+This course covers network measurements, including methodologies, tools, and applications for understanding network behavior and performance.
+
+**Course Website:** [fbronzino.notion.site/network-measurements](https://fbronzino.notion.site/network-measurements)
+
+### Course Overview
+
+This course focuses on network measurements broadly speaking. As machine learning becomes increasingly key for understanding our networks, a good portion of the course focuses on these applications. Students learn how to collect, analyze, and interpret network data, with special emphasis on modern ML-based approaches for network inference and analysis.
+
+### Resources
+
+- **Video Quality Inference Lab:** [github.com/wontoniii/video_inference](https://github.com/wontoniii/video_inference)
+- **Systems Costs and Model Performance Lab:** [github.com/wontoniii/representations_cost](https://github.com/wontoniii/representations_cost)
+
 ## Additional Resources
 
 ### Assignments
