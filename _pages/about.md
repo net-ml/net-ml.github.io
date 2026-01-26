@@ -70,7 +70,7 @@ This research is supported by:
 
 - **DARPA** - [Provably Weird Network Deployment and Detection (PWND²)](https://www.darpa.mil/research/programs/provably-weird-network)
 - **National Science Foundation** - Awards [2319603](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2319603), [2213821](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2213821), and [IIS-2229876](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229876) (ACTION AI Institute)
-- **University of Chicago** - [FACCTS (Foundations and Applications of Cyber-physical and Communication-Computation Tradeoffs in Societies) Program](https://fcc.uchicago.edu/faccts/)
+- **University of Chicago** - [FACCTS (France And Chicago Collaborating in The Sciences) Program](https://fcc.uchicago.edu/faccts/)
 - **Agence Nationale de la Recherche** - Award [ANR-21-CE94-0001](https://anr.fr/Project-ANR-21-CE94-0001)
 
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of DARPA, the National Science Foundation, or the University of Chicago.
