@@ -31,7 +31,7 @@ PRISM is a follow-up to our previous work on SCRIBE, which regionalizes crowdsou
 
 1. **Cost-Effective Monitoring**: By reducing the number of probes needed, PRISM can lower the costs associated with deploying and maintaining a probe infrastructure while still providing effective monitoring.
 2. **Broadband Equity Auditability**: PRISM allows for continuous monitoring of performance across the regions identified by SCRIBE, enabling more accurate assessments of broadband equity and informing policy decisions.
-3 **Monitoring in Resource-Constrained Environments**: PRISM's approach can be particularly beneficial in environments with limited resources, such as developing regions or small organizations, where deploying a large number of probes may not be feasible.
+3. **Monitoring in Resource-Constrained Environments**: PRISM's approach can be particularly beneficial in environments with limited resources, such as developing regions or small organizations, where deploying a large number of probes may not be feasible.
 
 ## Results
 
@@ -48,12 +48,12 @@ PRISM is a follow-up to our previous work on SCRIBE, which regionalizes crowdsou
 
 ```bibtex
 @misc{sharma2026moreoptimizingprobeselection,
-      title={Less is More: Optimizing Probe Selection Using Shared Latency Anomalies}, 
-      author={Taveesh Sharma and Andrew Chu and Paul Schmitt and Francesco Bronzino and Nick Feamster and Nicole Marwell},
-      year={2026},
-      eprint={2602.03965},
-      archivePrefix={arXiv},
-      primaryClass={cs.NI},
-      url={https://arxiv.org/abs/2602.03965}, 
+    title={Less is More: Optimizing Probe Selection Using Shared Latency Anomalies}, 
+    author={Taveesh Sharma and Andrew Chu and Paul Schmitt and Francesco Bronzino and Nick Feamster and Nicole Marwell},
+    year={2026},
+    eprint={2602.03965},
+    archivePrefix={arXiv},
+    primaryClass={cs.NI},
+    url={https://arxiv.org/abs/2602.03965}, 
 }
 ```
