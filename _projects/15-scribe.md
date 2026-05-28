@@ -43,7 +43,7 @@ SCRIBE uses a multi-step process to infer spatially-constrained regions of simil
 ## Resources
 
 - [Paper](https://dl.acm.org/doi/pdf/10.1145/3700416)
-- [GitHub Repository](https://github.com/noise-lab/latency-regionalization)
+- [GitHub Repository](https://github.com/noise-lab/scribe)
 
 ## Citation
 
