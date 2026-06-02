@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research projects and tools
 nav: true
 nav_order: 3
-display_categories: [Data Representation, Synthetic Data Generation, Multimodal Inference, Model Serving and Maintenance, Dynamic Model Execution]
+display_categories: [Data Representation, Synthetic Data Generation, Multimodal Inference, Model Serving and Maintenance, Dynamic Model Execution, Internet Measurement]
 horizontal: false
 ---
 
