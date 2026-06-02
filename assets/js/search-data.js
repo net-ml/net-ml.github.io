@@ -302,6 +302,16 @@ ninja.data = [{
           description: "Per-packet latency prediction for optimizing L4S queue selection",
           section: "Projects",handler: () => {
               window.location.href = "/projects/14-swiftqueue/";
+            },},{id: "projects-scribe",
+          title: 'SCRIBE',
+          description: "Spatially-Constrained Regionalization for Inference of Broadband Equity",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/15-scribe/";
+            },},{id: "projects-prism",
+          title: 'PRISM',
+          description: "Probe Reduction via Impact-based Shared Measurements",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/16-prism/";
             },},{id: "projects-leaf",
           title: 'LEAF',
           description: "Navigating concept drift in cellular networks",
