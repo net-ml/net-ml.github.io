@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/courses/";
           },
-        },{id: "post-beyond-data-points-regionalizing-crowdsourced-latency-measurements",
+        },{id: "post-our-first-workshop-on-the-role-of-generative-ai-in-networking",
+      
+        title: "Our First Workshop on the Role of Generative AI in Networking",
+      
+      description: "A recap of our workshop bringing together academics and industry experts to explore the role of generative AI in networking.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2026/genai-workshop/";
+        
+      },
+    },{id: "post-beyond-data-points-regionalizing-crowdsourced-latency-measurements",
       
         title: "Beyond Data Points: Regionalizing Crowdsourced Latency Measurements",
       
