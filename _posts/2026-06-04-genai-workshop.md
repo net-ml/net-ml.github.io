@@ -10,7 +10,7 @@ author: "Francesco Bronzino"
 
 # Our First Workshop on the Role of Generative AI in Networking
 
-We are excited to share a recap of our first workshop dedicated to exploring the role of generative AI in networking. The workshop was organized by Francesco Bronzino and [Nick Feamster](https://people.cs.uchicago.edu/~feamster/) and brought together experts from both academia and industry at the **University of Chicago Boyer Center in Paris**.
+Nick and I are excited to share a recap of our first workshop dedicated to exploring the role of generative AI in networking. The workshop brought together experts from both academia and industry at the **University of Chicago Boyer Center in Paris**.
 
 ![Workshop participants gathered for discussion](/assets/img/workshop1.jpeg)
 
